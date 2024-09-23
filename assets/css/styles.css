@@ -417,8 +417,19 @@ a {
     background: #2e2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback .feedback-item {
     display: flex;
+    flex-basis: 100%;
+    flex-shrink: 0;
+
+    /* Hieu ung chuyen phan tu */
+    /* transform: translateX(-100%);
+    transition: all ease 0.3s; */
 }
 
 .feedback-item .info .avatar {
