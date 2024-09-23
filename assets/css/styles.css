@@ -657,6 +657,7 @@ a {
 
 .blog-item .info .btn-blog {
     margin-top: 12px;
+    font-size: 1.4rem;
 }
 
 .blog-item .info .btn-blog:hover {
@@ -683,4 +684,77 @@ a {
 .blog-dots .dot.active {
     cursor: default;
     background: var(--primary-color);
+}
+
+/* ===================================== Footer ================================== */
+.footer {
+    background: var(--second-background-color);
+    padding: 96px 0 28px;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .socials {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.footer .title {
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    color: #fff;
+    border-bottom: 1px solid #59554b;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+
+.footer .list li {
+    margin-top: 12px;
+}
+
+.footer .list li:first-child {
+    margin-top: 28px;
+}
+
+.footer li a {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .copyright {
+    margin-top: 28px;
+}
+
+.footer .copyright p {
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
 }
